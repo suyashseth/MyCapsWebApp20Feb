@@ -47,18 +47,26 @@
 
 
 
-<servlet>
-<servlet-name>Login</servlet-name>
-<servlet-class>com.caps.dev.basics.LoginServ</servlet-class>
-</servlet>
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.caps.dev.basics.LoginServ</servlet-class>
+	</servlet>
 
-<servlet-mapping>
-<servlet-name>Login</servlet-name>
-<url-pattern>/login</url-pattern>
-</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
 
 
+	<servlet>
+		<servlet-name>update</servlet-name>
+		<servlet-class>com.caps.dev.basics.UpdateServ</servlet-class>
+	</servlet>
 
+	<servlet-mapping>
+		<servlet-name>update</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
 
 
 
